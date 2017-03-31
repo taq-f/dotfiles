@@ -1,1 +1,1 @@
-mklink %USERPROFILE%\.atom\keymap.cson %USERPROFILE%\.dotfiles\atom\windows\keymap.cson
+mklink %USERPROFILE%\.atom\keymap.cson %~p0\keymap.cson

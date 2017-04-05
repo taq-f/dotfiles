@@ -1,0 +1,35 @@
+"*":
+  "activate-power-mode":
+    comboMode:
+      enabled: false
+    screenShake:
+      enabled: false
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "vim-mode"
+      "language-gfm"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+  editor:
+    fontSize: 13
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softTabs: false
+    tabLength: 4
+  "exception-reporting":
+    userId: "22ddcfcf-8a2a-f1f3-8e3d-91cb1fd9f537"
+  "go-plus":
+    currentPanelHeight: "5.532574974146845vh"
+  linter: {}
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

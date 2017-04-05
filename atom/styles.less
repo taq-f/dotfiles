@@ -1,0 +1,85 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow expression
+atom-text-editor::shadow .cursor {
+  // border-color: red;
+}
+
+// Markdown Preview
+@font-family: 'Helvetica Neue', Helvetica, Roboto, 'Droid Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+.markdown-preview {
+  font-family: @font-family;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 25px;
+  hr {
+    &.pb {
+      // <hr class="pb">を入れる事で、
+      // プリント時の改ページを指定することができる。
+      page-break-after: always;
+      &:after {
+        display: none;
+      }
+    }
+  }
+  h1, h2, h3, h4, h5 {
+    font-weight: normal;
+  }
+  h1 {
+    font-size: 35px;
+    border: none;
+    margin: 30px auto;
+    text-align: center;
+    letter-spacing: 5px
+  }
+  h2 {
+	border-bottom: 1px solid;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin: 50px auto 25px;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px
+  }
+  .margin-clear {
+    margin-left: 0;
+  }
+  // テキストの中央揃え
+  .center {
+    text-align: center;
+    &:extend(.margin-clear);
+  }
+  // テキストの右寄せ
+  .right {
+    text-align: right;
+    &:extend(.margin-clear);
+  }
+}

@@ -1,7 +1,6 @@
 atom-runner@2.7.1
 autoclose-html@0.23.0
 autocomplete-paths@1.0.5
-autocomplete-plus@2.35.0
 autocomplete-python@1.8.62
 docblockr@0.9.4
 editorconfig@2.2.2

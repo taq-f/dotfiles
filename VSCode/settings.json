@@ -1,0 +1,26 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    "editor.fontSize": 12,
+    "workbench.colorTheme": "Monokai",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+    },
+    "editor.rulers": [
+        80
+    ],
+    "editor.renderWhitespace": "all",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.fontSize": 11
+}

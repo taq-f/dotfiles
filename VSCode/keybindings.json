@@ -1,0 +1,17 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+{ "key": "ctrl+a",  "command": "editor.action.selectAll",
+                       "when": "editorTextFocus && !inDebugRepl" },
+{ "key": "ctrl+c",   "command": "editor.action.clipboardCopyAction",
+                       "when": "editorTextFocus && !inDebugRepl" },
+{ "key": "ctrl+n",  "command": "workbench.action.files.newUntitledFile",
+                       "when": "editorTextFocus && !inDebugRepl" },
+{ "key": "ctrl+v",  "command": "editor.action.clipboardPasteAction",
+                       "when": "editorTextFocus && !inDebugRepl && vim.mode == 'Insert'" },
+{ "key": "ctrl+w",  "command": "workbench.action.closeActiveEditor",
+                       "when": "editorTextFocus && !inDebugRepl" },
+{ "key": "ctrl+x",  "command": "editor.action.clipboardCutAction",
+                       "when": "editorTextFocus && !inDebugRepl" }
+{ "key": "ctrl+f",  "command": "actions.find",
+                       "when": "editorTextFocus && !inDebugRepl" }
+]
